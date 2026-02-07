@@ -1,0 +1,10 @@
+body {font-family: Arial; background:#e0f2ff; display:flex; justify-content:center; align-items:center; height:100vh;}
+.container {background:white; padding:30px; border-radius:20px; box-shadow:0 8px 20px rgba(0,0,0,0.2); width:450px;}
+h1 {text-align:center; color:#1d4ed8;}
+.chatbox {display:flex; flex-direction:column;}
+#chatLog {height:300px; overflow-y:auto; border:1px solid #1d4ed8; border-radius:10px; padding:10px; margin-bottom:10px; background:#f0f9ff;}
+#queryInput {padding:10px; border-radius:10px 0 0 10px; border:1px solid #1d4ed8; width:70%;}
+button {padding:10px; border-radius:0 10px 10px 0; border:none; background-color:#1d4ed8; color:white; cursor:pointer;}
+button:hover {background-color:#2563eb;}
+.user {text-align:right; color:#1e3a8a; margin:5px;}
+.ai {text-align:left; color:#065f46; margin:5px;}
